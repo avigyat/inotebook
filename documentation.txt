@@ -1,0 +1,37 @@
+npx create-react-app inotebook
+npm i react-router-dom concurrently
+context API
+uselocation hook
+fontawesome--logos for delete and edit
+add note functionality, delete note functionality, edit note functionality
+fetch api--cors policy fixing in express--adding cors imports in app.js(backend)
+addnote--component--uses noteState(contextAPI) to add note in back end and on frontend JS is run
+deletenote--part of note item--uses noteState(contextAPI with id as params) to delete note in backend and on frontend JS is run function in notes.js component
+updatenote--part of note item--uses noteState(contextAPI with id,title,desc,tag as params) to delete note in backend and on frontend JS is run function in notes.js component
+Front end validation
+login and sign up components 
+seting up of token in localStorage session then navigating to home or to login page
+redux--prevention of prop drilling in case if u want to useState of one component in other component
+
+
+backend-
+npm init
+npm i express
+npm i mongoose
+
+connect to mongoose mongodb--db.js
+npm i -D nodemon
+npx express-generator
+
+
+creating models and mongoose schemas in them--importing from mongoose site
+creating end points in index.js and creating route files for end points in routes folder
+express validators for get/post requests---npm install express-validator
+
+hash function--rainbow tables--SALT--bcryptJS
+npm i bcryptjs
+
+JWT web token---npm i jsonwebtoken
+
+
+
